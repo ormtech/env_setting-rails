@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/ormtech/env_setting"
   spec.license       = "MIT"
 
-  spec.files         = %w[lib/env_setting-rails.rb]
+  spec.files         = %w[lib/env_setting-rails.rb lib/env_setting-rails/version.rb]
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'env_setting', EnvSetting::Railtie::VERSION
