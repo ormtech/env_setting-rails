@@ -4,7 +4,7 @@ class EnvSetting
   module Rails
     class Railtie < ::Rails::Railtie
       def env_rb_file
-        File.join(Rails.root.to_s, 'config/env.rb')
+        File.join(::Rails.root.to_s, 'config/env.rb')
       end
 
       config.before_configuration do
