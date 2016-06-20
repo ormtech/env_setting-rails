@@ -1,4 +1,5 @@
 require 'env_setting'
+require 'rails'
 
 class EnvSetting
   module Rails

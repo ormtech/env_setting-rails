@@ -17,4 +17,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'env_setting', EnvSetting::Rails::VERSION
+  spec.add_dependency 'rails', '>= 3.2'
 end
